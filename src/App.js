@@ -64,6 +64,7 @@ function App() {
             </a>
           </p>
         </div>
+        <h1 className="nz_timeline_heading">Work...</h1>
         <div class="nz_timeline_container">
           <div class="timeline">
             <ul>
@@ -151,11 +152,13 @@ function App() {
       </div>
 
       <div className="footer">
-        <h1>Let's get in touch!</h1>
-        <div className="social-listz">
-          <button>Youtube</button>
-          <button>Email</button>
-          <button>Resume</button>
+        <div className="footer-container">
+          <h1>Let's get in touch!</h1>
+          <div className="social-list">
+            <button>Youtube</button>
+            <button>Email</button>
+            <button>Resume</button>
+          </div>
         </div>
       </div>
     </div>
