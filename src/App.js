@@ -26,21 +26,9 @@ function App() {
           </p>
         </div>
         {/* End of welcome p container */}
-        <div class="icon-scroll"></div>
-        <h3 className="scroll_animator">Scroll animation </h3>
+        <div class="icon-scroll scroll_animator"></div>
       </div>
       {/* End of First Section */}
-
-      <div className="second_section">
-        <h1 className="second_section_heading">
-          I'm ready for my next adventure. Hire me?
-        </h1>
-
-        <video height="340" autoPlay muted loop="true">
-          {/* <source src={myVideoSrc} /> */}
-          <source src={Video} />
-        </video>
-      </div>
 
       <div className="third_section">
         <div className="third_section_container">
@@ -151,9 +139,20 @@ function App() {
       </div>
       {/* End of third section */}
 
+      <div className="second_section">
+        <h1 className="second_section_heading">
+          I'm ready for my next adventure. Hire me?
+        </h1>
+
+        <video height="340" autoPlay muted loop="true">
+          {/* <source src={myVideoSrc} /> */}
+          <source src={Video} />
+        </video>
+      </div>
+
       <div className="footer">
         <h1>Let's get in touch!</h1>
-        <div className="social-list">
+        <div className="social-listz">
           <button>Youtube</button>
           <button>Email</button>
           <button>Resume</button>
