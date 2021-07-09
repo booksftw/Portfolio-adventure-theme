@@ -128,7 +128,7 @@ img.third_section_img {
 }
 
 .footer h1 {
-  margin-bottom: 2remgg;
+  margin-bottom: 2rem;
 }
 
 .footer button {
@@ -137,7 +137,7 @@ img.third_section_img {
 }
 
 .footer-container {
-  margin-top: -18rem;
+  margin-top: -6rem;
 }
 
 /* Start of timeline paste */
@@ -293,3 +293,78 @@ img.third_section_img {
 }
 
 /* IGNORE EVERYTHING BELOW */
+
+/* Pasting Footer Buttons */
+
+div.footer-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+div.footer-container ul li {
+  --c: red;
+  cursor: pointer;
+  color: var(--c);
+  font-size: 16px;
+  border: 0.3em solid var(--c);
+  border-radius: 0.5em;
+  width: 12em;
+  height: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 3em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+  margin: 1em;
+}
+
+div.footer-container ul li span {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: var(--c);
+  transform: translateY(150%);
+  border-radius: 50%;
+  left: calc((var(--n) - 1) * 25%);
+  transition: 0.5s;
+  transition-delay: calc((var(--n) - 1) * 0.1s);
+  z-index: -1;
+}
+
+/* Align Items Hortzontally ul li */
+div.footer-container {
+  display: flex;
+  flex-direction: row;
+}
+
+div.footer-container ul li:hover {
+  color: black;
+}
+
+div.footer-container ul li:hover span {
+  transform: translateY(0) scale(2);
+}
+
+div.footer-container ul li span:nth-child(1) {
+  --n: 1;
+}
+
+div.footer-container ul li span:nth-child(2) {
+  --n: 2;
+}
+
+div.footer-container ul li span:nth-child(3) {
+  --n: 3;
+}
+
+div.footer-container ul li span:nth-child(4) {
+  --n: 4;
+}
+
+/* End Footer Buttons */

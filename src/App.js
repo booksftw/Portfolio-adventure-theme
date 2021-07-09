@@ -153,12 +153,29 @@ function App() {
 
       <div className="footer">
         <div className="footer-container">
-          <h1>Let's get in touch!</h1>
-          <div className="social-list">
-            <button>Youtube</button>
-            <button>Email</button>
-            <button>Resume</button>
-          </div>
+          <ul>
+            <li>
+              Email
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </li>
+            <li>
+              YouTube
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </li>
+            <li>
+              Resume
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
