@@ -1,0 +1,34 @@
+.welcome_heading {
+  margin-bottom: 2rem;
+  font-size: 6rem;
+}
+
+.welcome_heading_name {
+  color: #ff002f;
+}
+
+.welcome_p_container {
+  width: 56rem;
+  font-size: 2rem;
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 420px) {
+  .welcome_p_container {
+    width: 19rem;
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}

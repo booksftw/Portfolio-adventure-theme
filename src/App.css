@@ -23,61 +23,23 @@ body {
 }
 
 .first_section {
-  /* position: absolute;
-  top: 16rem;
-  left: 33rem; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   color: #fee4e8;
   padding-top: 10%;
   margin-top: 10%;
-  /* margin-left: 23rem; */
   margin-left: 24%;
   padding-bottom: 24%;
 }
 
-.welcome_heading {
-  margin-bottom: 2rem;
-  font-size: 6rem;
-}
-
-.welcome_heading_name {
-  color: #ff002f;
-}
-
-.welcome_p_container {
-  width: 56rem;
-  font-size: 2rem;
-}
-
-.scroll_animator {
-  color: white;
-  position: absolute;
-  left: 50%;
-  top: 90%;
-}
-
-div.x {
-  /* display: flex; */
-  /* flex-direction: column; */
-}
-
 .second_section {
   background-color: #000000;
-  /* position: relative;
-  top: 100vh; */
   height: 30rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-}
-
-.second_section_heading {
-  color: #f2f2f2;
-  margin-top: 3rem;
-  text-transform: capitalize;
 }
 
 .third_section {
@@ -86,36 +48,6 @@ div.x {
   align-items: center;
   padding-top: 29rem;
   padding-bottom: 15rem;
-}
-
-.third_section h2 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.third_section_container {
-  display: flex;
-  flex-direction: column;
-}
-
-img.third_section_img {
-  align-self: center;
-  height: 38rem;
-}
-
-.third_section h2,
-.third_section p {
-  max-width: 600px;
-}
-
-.third_section a {
-  color: #ff002f;
-}
-
-.third_section .nz_timeline_heading {
-  margin-top: 30rem;
-  margin-bottom: -50px;
-  font-size: 13rem;
 }
 
 .footer {
@@ -127,244 +59,26 @@ img.third_section_img {
   justify-content: center;
 }
 
-.footer h1 {
-  margin-bottom: 2rem;
-}
-
-.footer button {
-  display: inline;
-  width: 5rem;
-}
-
-.footer-container {
-  margin-top: -6rem;
-}
-
-/* Start of timeline paste */
-
-.nz_timeline_container {
-  margin-top: 5rem;
-  min-height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 100px 0;
-  background-color: #1a96a6;
-}
-.timeline {
-  width: 80%;
-  height: auto;
-  max-width: 800px;
-  margin: 0 auto;
-  position: relative;
-}
-
-.timeline ul {
-  list-style: none;
-}
-.timeline ul li {
-  padding: 20px;
-  background-color: black;
-  color: white;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-.timeline ul li:last-child {
-  margin-bottom: 0;
-}
-.timeline-content h1 {
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 30px;
-  margin-bottom: 10px;
-}
-.timeline-content p {
-  font-size: 16px;
-  line-height: 30px;
-  font-weight: 300;
-}
-.timeline-content .nz_tags {
-  font-size: 12px;
-  font-weight: 300;
-  margin-bottom: 10px;
-  letter-spacing: 2px;
-}
-@media only screen and (min-width: 768px) {
-  .timeline:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 2px;
-    height: 100%;
-    background-color: gray;
-  }
-  .timeline ul li {
-    width: 50%;
-    position: relative;
-    margin-bottom: 50px;
-  }
-  .timeline ul li:nth-child(odd) {
-    float: left;
-    clear: right;
-    transform: translateX(-30px);
-    border-radius: 20px 0px 20px 20px;
-  }
-  .timeline ul li:nth-child(even) {
-    float: right;
-    clear: left;
-    transform: translateX(30px);
-    border-radius: 0px 20px 20px 20px;
-  }
-  .timeline ul li::before {
-    content: "";
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    background-color: rgb(0, 0, 0);
-    top: 0px;
-  }
-  .timeline ul li:nth-child(odd)::before {
-    transform: translate(50%, -50%);
-    right: -30px;
-  }
-  .timeline ul li:nth-child(even)::before {
-    transform: translate(-50%, -50%);
-    left: -30px;
-  }
-  .timeline-content .nz_tags {
-    position: absolute;
-    top: -30px;
-  }
-  .timeline ul li:hover::before {
-    background-color: aqua;
-  }
-}
-/* End of Paste */
-
-/* Paste icon scroll */
-
-/* IGNORE EVERYTHING BELOW */
-
-/* End Paste */
-
-.icon-scroll,
-.icon-scroll:before {
-  position: absolute;
-  left: 50%;
-}
-.icon-scroll {
-  width: 30px;
-  height: 50px;
-  margin-left: -20px;
-  bottom: 10px;
-  margin-top: -35px;
-  border: 2px solid #fff;
-  border-radius: 25px;
-}
-@media (max-width: 767px) {
-  .icon-scroll {
-    position: relative;
-  }
-}
-.icon-scroll:before {
-  content: "";
-  width: 8px;
-  height: 8px;
-  background: #fff;
-  margin-left: -4px;
-  top: 8px;
-  border-radius: 4px;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-  animation-name: scroll;
-}
-@keyframes scroll {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(26px);
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 420px) {
+  /* Styles */
+  html {
+    /* background-color: greenyellow; */
+    font-size: 66%;
   }
 }
 
-/* IGNORE EVERYTHING BELOW */
-
-/* Pasting Footer Buttons */
-
-div.footer-container ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+/* iPads (portrait) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  /* Styles */
 }
 
-div.footer-container ul li {
-  --c: red;
-  cursor: pointer;
-  color: var(--c);
-  font-size: 16px;
-  border: 0.3em solid var(--c);
-  border-radius: 0.5em;
-  width: 12em;
-  height: 3em;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: sans-serif;
-  letter-spacing: 0.1em;
-  text-align: center;
-  line-height: 3em;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  transition: 0.5s;
-  margin: 1em;
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
 }
 
-div.footer-container ul li span {
-  position: absolute;
-  width: 25%;
-  height: 100%;
-  background-color: var(--c);
-  transform: translateY(150%);
-  border-radius: 50%;
-  left: calc((var(--n) - 1) * 25%);
-  transition: 0.5s;
-  transition-delay: calc((var(--n) - 1) * 0.1s);
-  z-index: -1;
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
 }
-
-/* Align Items Hortzontally ul li */
-div.footer-container {
-  display: flex;
-  flex-direction: row;
-}
-
-div.footer-container ul li:hover {
-  color: black;
-}
-
-div.footer-container ul li:hover span {
-  transform: translateY(0) scale(2);
-}
-
-div.footer-container ul li span:nth-child(1) {
-  --n: 1;
-}
-
-div.footer-container ul li span:nth-child(2) {
-  --n: 2;
-}
-
-div.footer-container ul li span:nth-child(3) {
-  --n: 3;
-}
-
-div.footer-container ul li span:nth-child(4) {
-  --n: 4;
-}
-
-/* End Footer Buttons */
