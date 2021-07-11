@@ -13,7 +13,10 @@ function App() {
       {/* Welcome Container */}
       <div className="first_section">
         <Welcome />
-        <AnimatorIcon />
+
+        <div className="animatorIcon_container">
+          <AnimatorIcon />
+        </div>
       </div>
       {/* End of First Section */}
 

@@ -9,7 +9,13 @@ const FireCTA = () => {
         I'm ready for my next adventure. Hire me?
       </h1>
 
-      <video height="340" autoPlay muted loop="true">
+      <video
+        className="section_section_video"
+        height="340"
+        autoPlay
+        muted
+        loop="true"
+      >
         {/* <source src={myVideoSrc} /> */}
         <source src={Video} />
       </video>

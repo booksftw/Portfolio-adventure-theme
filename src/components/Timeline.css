@@ -101,3 +101,26 @@
     background-color: aqua;
   }
 }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 420px) {
+  /* Styles */
+  .third_section .nz_timeline_heading {
+    font-size: 9rem;
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}

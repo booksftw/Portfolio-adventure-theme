@@ -21,6 +21,9 @@
 /* iPads (portrait) ----------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   /* Styles */
+  .welcome_p_container {
+    width: 28rem;
+  }
 }
 
 /* Desktops and laptops ----------- */

@@ -33,6 +33,12 @@ body {
   padding-bottom: 24%;
 }
 
+.animatorIcon_container {
+  position: absolute;
+  left: 50%;
+  top: 85%;
+}
+
 .second_section {
   background-color: #000000;
   height: 30rem;
@@ -66,16 +72,31 @@ body {
     /* background-color: greenyellow; */
     font-size: 66%;
   }
+
+  .animatorIcon_container {
+    top: 95%;
+  }
 }
 
 /* iPads (portrait) ----------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   /* Styles */
+  .first_section {
+    margin-left: 15%;
+  }
+
+  .footer {
+    margin-top: -6px;
+  }
 }
 
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
   /* Styles */
+  .animatorIcon_container {
+    left: 50%;
+    top: 92%;
+  }
 }
 
 /* Large screens ----------- */

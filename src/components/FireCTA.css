@@ -3,3 +3,31 @@
   margin-top: 3rem;
   text-transform: capitalize;
 }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 420px) {
+  /* Styles */
+  .second_section_heading {
+    margin-top: 13rem;
+    width: 90%;
+  }
+
+  .section_section_video {
+    height: 227px;
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
