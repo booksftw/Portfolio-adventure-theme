@@ -192,3 +192,30 @@ div.footer-container ul li span:nth-child(4) {
   box-shadow: 0 5px #95a5a6;
   transform: translateY(4px);
 }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 420px) {
+  /* Styles */
+  .modal-email-p {
+    font-size: 2rem;
+  }
+
+  .button-one {
+    font-size: 0.9rem;
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}

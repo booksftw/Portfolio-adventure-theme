@@ -34,6 +34,10 @@ img.third_section_img {
   .third_section_container {
     width: 80%;
   }
+
+  img.third_section_img {
+    height: 35rem;
+  }
 }
 
 /* iPads (portrait) ----------- */

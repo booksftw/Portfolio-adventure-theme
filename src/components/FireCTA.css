@@ -10,10 +10,12 @@
   .second_section_heading {
     margin-top: 13rem;
     width: 90%;
+    text-align: center;
   }
 
   .section_section_video {
-    height: 227px;
+    height: 190px;
+    width: auto;
   }
 }
 
