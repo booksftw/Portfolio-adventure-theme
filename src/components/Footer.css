@@ -34,7 +34,7 @@ div.footer-container ul li {
   line-height: 3em;
   position: relative;
   overflow: hidden;
-  z-index: 1;
+  z-index: 0;
   transition: 0.5s;
   margin: 1em;
 }
@@ -49,7 +49,7 @@ div.footer-container ul li span {
   left: calc((var(--n) - 1) * 25%);
   transition: 0.5s;
   transition-delay: calc((var(--n) - 1) * 0.1s);
-  z-index: -1;
+  z-index: 0;
 }
 
 /* Align Items Hortzontally ul li */
@@ -80,4 +80,115 @@ div.footer-container ul li span:nth-child(3) {
 
 div.footer-container ul li span:nth-child(4) {
   --n: 4;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+/* PASTING CODE */
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+}
+
+.footer-email-show {
+  display: block;
+}
+
+.footer-email-hidden {
+  display: none; /* Hidden by default */
+}
+
+.modal-email-p {
+  color: black;
+  padding-right: 1rem;
+  font-size: 3rem;
+}
+
+.footer-modal-content-btn {
+}
+
+.modal-content-email-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  height: 50%;
+  border-radius: 4%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* END OF PASTING CODE */
+
+/* Pasting 3d Button Code */
+/* 
+
+
+.main {
+  width: 100%;
+}
+
+.button-one {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 24px;
+  margin: 0 0 0 100px;
+}
+
+/*Button One*/
+.button-one {
+  color: white;
+  padding: 10px 10px;
+  outline: none;
+  background-color: #d90d32;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 9px #95a5a6;
+  margin: 0;
+  cursor: pointer;
+}
+
+.button-one:hover {
+  background-color: #d90d32;
+}
+
+.button-one:active {
+  background-color: #d90d32;
+  box-shadow: 0 5px #95a5a6;
+  transform: translateY(4px);
 }
